@@ -1,0 +1,21 @@
+{
+  "name": "nodejsstripeapi",
+  "version": "1.0.0",
+  "description": "Web application to sell Computer Hardware Components",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Jonathan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "stripe": "^8.79.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

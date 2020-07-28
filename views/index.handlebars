@@ -1,0 +1,28 @@
+<section class="py-2">
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <h1 class="display-4 mt-3 pt-3">
+            All new Ryzen Processor
+            </h1><p class="lead">Performace at it's best</p>
+            <form action="/charge" method="POST">
+                <script
+                    src="https://checkout.stripe.com/checkout.js"
+                    class="stripe-button"
+                    data-key="pk_test_51H9ruvHU92bzx634uquFDt2BHXZzS2kTECz8qwRPsWhIzuxoRw0FbUAtiRf4QEb1har8A068eYJIJT26YoGWsQet00xAEwNjR1"
+                    data-amount = "25000"
+                    data-name = "Ryzen Processor"
+                    data-description = "Powerful processor"
+                    data-image = "/img/marketplace.png"
+                    data-locale = "auto">
+                </script>
+                <script>
+                    document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+                </script>
+                <button class="btn btn-outline-primary btn-md" type="submit">Purchase for $250</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <img src="/img/ryzen.jpeg" class="img-thumbnail img-fluid mt-3" style="height: 400px; width:400px">
+        </div>
+    </div>
+</section>
